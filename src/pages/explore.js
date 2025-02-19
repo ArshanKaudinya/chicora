@@ -20,9 +20,9 @@ function Explore() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,        // Auto slides
-    autoplaySpeed: 3000,   // Slide every 3 seconds
-    arrows: true,          // Show prev/next arrows
+    autoplay: true,       
+    autoplaySpeed: 3000,   
+    arrows: true,          
   };
 
   const winningSettings = {
@@ -37,7 +37,7 @@ function Explore() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white font-inter spacing-tight min-h-screen">
       <Navbar />
 
       <section className="flex flex-col items-center justify-center px-2 md:flex-row md:justify-around">

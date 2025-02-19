@@ -6,7 +6,7 @@ import shopping from '../assets/shopping.jpg';
 
 function Home() {
   return (
-    <div>
+    <div className='font-inter spacing-tight'>
       <Navbar />
 
       <section className="flex flex-col items-center justify-center px-8 py-16 md:flex-row md:justify-around bg-white">
@@ -31,7 +31,7 @@ function Home() {
 
           <div className="space-x-3">
             <Link
-              to=""
+              to="/leaderboard"
               className="bg-mlpurple text-black px-4 py-2 rounded-md transition-transform duration-200 shadow hover:scale-105"
             >
               Get Started
