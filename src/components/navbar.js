@@ -31,7 +31,7 @@ function Navbar() {
           Store
         </Link>
 
-        <Link to="" className="w-8 h-8 rounded-full overflow-hidden">
+        <Link to="/account" className="w-8 h-8 rounded-full overflow-hidden">
           <img
             src={avatar}
             alt="Avatar"
