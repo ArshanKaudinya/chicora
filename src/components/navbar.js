@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <header className="flex items-center text-chicpink justify-between px-12 py-7 bg-white shadow-sm">
       <div className="text-chicpink text-xl font-bold">
-        <Link to="" className="text-chicpink text-xl font-bold">
+        <Link to="/" className="text-chicpink text-xl font-bold">
           Chicora.
         </Link>
       </div>
@@ -19,7 +19,7 @@ function Navbar() {
           Explore
         </Link>
         <Link
-          to=""
+          to="/contests"
           className="transition-colors duration-300 hover:text-chicpink"
         >
           Contest

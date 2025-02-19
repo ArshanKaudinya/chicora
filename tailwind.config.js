@@ -12,6 +12,12 @@ module.exports = {
         chicpink: '#FF63D6',
         lpink: '#FFE5FF',
       },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      },
+      letterSpacing: {
+        supertight: '-0.08em',
+      },
     },
   },
   plugins: [],
