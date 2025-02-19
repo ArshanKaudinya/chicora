@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chicora/static/css/main.ba9a0e18.css",
-    "main.js": "/chicora/static/js/main.7202ead1.js",
+    "main.js": "/chicora/static/js/main.9f9a5f06.js",
     "static/media/c14.jpg": "/chicora/static/media/c14.a7c30f65807750c1ee52.jpg",
     "static/media/c12.jpg": "/chicora/static/media/c12.4ab3a9624e64506b1285.jpg",
     "static/media/c11.jpg": "/chicora/static/media/c11.6b3e915145a72cd35c39.jpg",
@@ -15,10 +15,10 @@
     "static/media/slick.woff": "/chicora/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/chicora/index.html",
     "main.ba9a0e18.css.map": "/chicora/static/css/main.ba9a0e18.css.map",
-    "main.7202ead1.js.map": "/chicora/static/js/main.7202ead1.js.map"
+    "main.9f9a5f06.js.map": "/chicora/static/js/main.9f9a5f06.js.map"
   },
   "entrypoints": [
     "static/css/main.ba9a0e18.css",
-    "static/js/main.7202ead1.js"
+    "static/js/main.9f9a5f06.js"
   ]
 }
