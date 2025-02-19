@@ -1,29 +1,47 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import avatar from '../assets/avatar.png';
 
 function Navbar() {
   return (
-    <header className="flex items-center justify-between px-10 py-7 bg-white shadow-sm">
-      
-      <div className="text-pink-500 text-xl font-bold">
-      <Link to="/" className="text-pink-500 text-xl font-bold">Chicora.</Link>
+    <header className="flex items-center text-chicpink justify-between px-12 py-7 bg-white shadow-sm">
+      <div className="text-chicpink text-xl font-bold">
+        <Link to="" className="text-chicpink text-xl font-bold">
+          Chicora.
+        </Link>
       </div>
 
       <nav className="flex items-center space-x-6 text-sm font-medium">
-        <a href="#explore" className="hover:text-pink-500">Explore</a>
-        <a href="#contest" className="hover:text-pink-500">Contest</a>
-        <a href="#store" className="hover:text-pink-500">Store</a>
+        <Link
+          to="/explore"
+          className="transition-colors duration-300"
+        >
+          Explore
+        </Link>
+        <Link
+          to=""
+          className="transition-colors duration-300 hover:text-chicpink"
+        >
+          Contest
+        </Link>
+        <Link
+          to=""
+          className="transition-colors duration-300 hover:text-chicpink"
+        >
+          Store
+        </Link>
 
-        <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center text-gray-400">
-          <span className="material-icons">person</span>
-        </div>
-
-        <button className="bg-pink-100 text-pink-700 px-4 py-1 rounded-full hover:bg-pink-200 transition">
-          Premium
-        </button>
+        <Link to="" className="w-8 h-8 rounded-full overflow-hidden">
+          <img
+            src={avatar}
+            alt="Avatar"
+            className="w-full h-full object-cover"
+          />
+        </Link>
       </nav>
     </header>
   );
 }
 
 export default Navbar;
+
