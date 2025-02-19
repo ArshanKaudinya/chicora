@@ -1,12 +1,28 @@
 {
   "files": {
-    "main.css": "/chicora/static/css/main.ba9a0e18.css",
-    "main.js": "/chicora/static/js/main.9f9a5f06.js",
-    "static/media/c14.jpg": "/chicora/static/media/c14.a7c30f65807750c1ee52.jpg",
-    "static/media/c12.jpg": "/chicora/static/media/c12.4ab3a9624e64506b1285.jpg",
-    "static/media/c11.jpg": "/chicora/static/media/c11.6b3e915145a72cd35c39.jpg",
+    "main.css": "/chicora/static/css/main.3e6c3ebb.css",
+    "main.js": "/chicora/static/js/main.b13ad5a9.js",
+    "static/media/c24.jpg": "/chicora/static/media/c24.40f096a77992e1305bc5.jpg",
+    "static/media/c12.png": "/chicora/static/media/c12.1844d50e09f84b6292d1.png",
+    "static/media/h1.png": "/chicora/static/media/h1.088396cd0a0241e1b39d.png",
+    "static/media/h4.png": "/chicora/static/media/h4.1342d31c1ec5c8f1a5d3.png",
+    "static/media/jacket.jpg": "/chicora/static/media/jacket.6429fb769a87c8346e87.jpg",
+    "static/media/chicoin.png": "/chicora/static/media/chicoin.8290a429bec408b1bd74.png",
+    "static/media/c22.jpg": "/chicora/static/media/c22.ea0f03bf29511bc35f34.jpg",
+    "static/media/h2.png": "/chicora/static/media/h2.9164e1827d2323305065.png",
+    "static/media/h3.png": "/chicora/static/media/h3.5d1fcd4ff7109854e0eb.png",
+    "static/media/c13.png": "/chicora/static/media/c13.32abc1ae09892e95877b.png",
+    "static/media/glasses.jpg": "/chicora/static/media/glasses.6c4e21e99059005ca74b.jpg",
+    "static/media/c23.jpg": "/chicora/static/media/c23.74ccc53a74f453f14378.jpg",
+    "static/media/handbag.jpg": "/chicora/static/media/handbag.1de8aba8a8bb8cf483f5.jpg",
+    "static/media/boots.jpg": "/chicora/static/media/boots.06507fe983c0dbae8659.jpg",
+    "static/media/c21.png": "/chicora/static/media/c21.b075322ce986c0ce3f52.png",
     "static/media/shopping.jpg": "/chicora/static/media/shopping.ad6e3e75c1925f63d917.jpg",
-    "static/media/c13.jpg": "/chicora/static/media/c13.3def07ada8f7607ad4af.jpg",
+    "static/media/pfp.png": "/chicora/static/media/pfp.0d7a32888a36d9f16734.png",
+    "static/media/blacktee.jpg": "/chicora/static/media/blacktee.3d125155be6f7dc37b8d.jpg",
+    "static/media/c11.png": "/chicora/static/media/c11.98630e1506465e9896d0.png",
+    "static/media/c14.jpg": "/chicora/static/media/c14.81c6dbcb46f725850ffe.jpg",
+    "static/media/puffer.png": "/chicora/static/media/puffer.359c0f4b1c83e6858b71.png",
     "static/media/mannequins.jpg": "/chicora/static/media/mannequins.c4fb60a00d443f4f7924.jpg",
     "static/media/avatar.png": "/chicora/static/media/avatar.8d49e377c7c342895ec2.png",
     "static/media/slick.svg": "/chicora/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -14,11 +30,11 @@
     "static/media/slick.ttf": "/chicora/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/chicora/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/chicora/index.html",
-    "main.ba9a0e18.css.map": "/chicora/static/css/main.ba9a0e18.css.map",
-    "main.9f9a5f06.js.map": "/chicora/static/js/main.9f9a5f06.js.map"
+    "main.3e6c3ebb.css.map": "/chicora/static/css/main.3e6c3ebb.css.map",
+    "main.b13ad5a9.js.map": "/chicora/static/js/main.b13ad5a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba9a0e18.css",
-    "static/js/main.9f9a5f06.js"
+    "static/css/main.3e6c3ebb.css",
+    "static/js/main.b13ad5a9.js"
   ]
 }
