@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/chicora/static/css/main.3e6c3ebb.css",
-    "main.js": "/chicora/static/js/main.b13ad5a9.js",
+    "main.css": "/chicora/static/css/main.250bd615.css",
+    "main.js": "/chicora/static/js/main.d1bb6a7a.js",
     "static/media/c24.jpg": "/chicora/static/media/c24.40f096a77992e1305bc5.jpg",
     "static/media/c12.png": "/chicora/static/media/c12.1844d50e09f84b6292d1.png",
+    "static/media/monthlyc.png": "/chicora/static/media/monthlyc.17b611b62c3e9ba393d8.png",
     "static/media/h1.png": "/chicora/static/media/h1.088396cd0a0241e1b39d.png",
+    "static/media/weeklyc.png": "/chicora/static/media/weeklyc.90445aaaa23c93229b18.png",
     "static/media/h4.png": "/chicora/static/media/h4.1342d31c1ec5c8f1a5d3.png",
+    "static/media/dailyc.png": "/chicora/static/media/dailyc.5566fdd586a82807d604.png",
     "static/media/jacket.jpg": "/chicora/static/media/jacket.6429fb769a87c8346e87.jpg",
     "static/media/chicoin.png": "/chicora/static/media/chicoin.8290a429bec408b1bd74.png",
     "static/media/c22.jpg": "/chicora/static/media/c22.ea0f03bf29511bc35f34.jpg",
@@ -19,6 +22,8 @@
     "static/media/c21.png": "/chicora/static/media/c21.b075322ce986c0ce3f52.png",
     "static/media/shopping.jpg": "/chicora/static/media/shopping.ad6e3e75c1925f63d917.jpg",
     "static/media/pfp.png": "/chicora/static/media/pfp.0d7a32888a36d9f16734.png",
+    "static/media/buckshoes.jpg": "/chicora/static/media/buckshoes.26112894c5f9948961a1.jpg",
+    "static/media/subman.png": "/chicora/static/media/subman.3cd535280d5d868f8242.png",
     "static/media/blacktee.jpg": "/chicora/static/media/blacktee.3d125155be6f7dc37b8d.jpg",
     "static/media/c11.png": "/chicora/static/media/c11.98630e1506465e9896d0.png",
     "static/media/c14.jpg": "/chicora/static/media/c14.81c6dbcb46f725850ffe.jpg",
@@ -30,11 +35,11 @@
     "static/media/slick.ttf": "/chicora/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/chicora/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/chicora/index.html",
-    "main.3e6c3ebb.css.map": "/chicora/static/css/main.3e6c3ebb.css.map",
-    "main.b13ad5a9.js.map": "/chicora/static/js/main.b13ad5a9.js.map"
+    "main.250bd615.css.map": "/chicora/static/css/main.250bd615.css.map",
+    "main.d1bb6a7a.js.map": "/chicora/static/js/main.d1bb6a7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e6c3ebb.css",
-    "static/js/main.b13ad5a9.js"
+    "static/css/main.250bd615.css",
+    "static/js/main.d1bb6a7a.js"
   ]
 }
