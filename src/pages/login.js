@@ -1,23 +1,30 @@
 import React, { useState, useEffect } from "react";
-import { auth } from "../firebaseConfig";
-import { signInWithEmailAndPassword, createUserWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
+import { auth, db } from "../firebaseConfig";
+import { 
+  signInWithEmailAndPassword, 
+  createUserWithEmailAndPassword, 
+  onAuthStateChanged 
+} from "firebase/auth";
+import { doc, setDoc } from "firebase/firestore";
 import { useNavigate, useLocation } from "react-router-dom";
 import Navbar from "../components/navbar";
 
 function Login() {
   const navigate = useNavigate();
   const location = useLocation();
-  const from = location.state?.from?.pathname || "/"; // Redirect to previous page or home
+  const from = location.state?.from?.pathname || "/"; 
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("");
+  const [name, setName] = useState("");
   const [isRegistering, setIsRegistering] = useState(false);
   const [error, setError] = useState("");
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-        navigate(from, { replace: true }); // Redirect after login
+        navigate(from, { replace: true }); 
       }
     });
     return () => unsubscribe();
@@ -28,13 +35,26 @@ function Login() {
     setError("");
 
     try {
+      let userCredential;
       if (isRegistering) {
-        await createUserWithEmailAndPassword(auth, email, password);
+        // Step 1: Create User in Firebase Authentication
+        userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        const user = userCredential.user; 
+
+        // Step 2: Store User Data in Firestore
+        await setDoc(doc(db, "users", user.uid), {
+          name,
+          username,
+          email,
+          coins: 10, 
+        });
+
       } else {
         await signInWithEmailAndPassword(auth, email, password);
       }
     } catch (error) {
       setError(error.message);
+      console.error("🔥 Firebase Error:", error);
     }
   };
 
@@ -50,6 +70,28 @@ function Login() {
           {error && <p className="text-red-500 mb-3">{error}</p>}
 
           <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+            {isRegistering && (
+              <>
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-mlpurple"
+                />
+
+                <input
+                  type="text"
+                  placeholder="Username"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                  required
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-mlpurple"
+                />
+              </>
+            )}
+
             <input
               type="email"
               placeholder="Email"
@@ -89,4 +131,8 @@ function Login() {
 }
 
 export default Login;
+
+
+
+
 

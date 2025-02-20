@@ -37,7 +37,7 @@ function Explore() {
   };
 
   return (
-    <div className="bg-white font-inter spacing-tight min-h-screen">
+    <div className="bg-white font-inter spacing-supertight min-h-screen">
       <Navbar />
 
       <section className="flex flex-col items-center justify-center px-2 md:flex-row md:justify-around">
@@ -84,8 +84,8 @@ function Explore() {
             Check what’s <em>chic</em> this week.
           </p>
           <Link
-            to=""
-            className="bg-mlpurple text-ddpurple px-5 py-2 rounded-md font-medium shadow hover:bg-purple-400 transition"
+            to="/store"
+            className="bg-mlpurple text-ddpurple px-5 py-2 rounded-md font-medium shadow hover:scale-105 transition-transform"
           >
             View
           </Link>
@@ -101,8 +101,8 @@ function Explore() {
             Browse through a catalogue of this week’s top <em>chic</em> outfits.
           </p>
           <Link
-            to=""
-            className="bg-mlpurple text-ddpurple px-5 py-2 rounded-md font-medium shadow hover:bg-purple-400 transition"
+            to="/store"
+            className="bg-mlpurple text-ddpurple px-5 py-2 rounded-md font-medium shadow hover:scale-105 transition-transform"
           >
             View
           </Link>

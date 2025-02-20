@@ -13,6 +13,12 @@ function Navbar() {
 
       <nav className="flex items-center space-x-6 text-m font-medium">
         <Link
+          to="/leaderboard"
+          className="transition-colors duration-300"
+        >
+          Leaderboard
+        </Link>
+        <Link
           to="/explore"
           className="transition-colors duration-300"
         >
