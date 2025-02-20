@@ -1,5 +1,3 @@
-// src/pages/leaderboard.js
-
 import React from 'react';
 import Navbar from '../components/navbar';
 
