@@ -172,7 +172,7 @@ const Submission = () => {
           <div className="grid grid-cols-4 gap-4">
             {clothingItems.slice(0, 12).map((item) => (
               <img key={item.id} src={item.image} alt="Clothing"
-                className="w-24 h-24 cursor-pointer shadow-md rounded-md border hover:scale-105 transition-transform"
+                className="w-32 h-28 cursor-pointer shadow-md rounded-md border hover:scale-105 transition-transform"
                 draggable onDragStart={handleDragStart(item)} />
             ))}
           </div>
