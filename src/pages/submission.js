@@ -169,7 +169,7 @@ const Submission = () => {
         {/* Available Clothes + Submit Button */}
         <div className="bg-white p-6 mt-4 rounded-lg w-[400px]">
           <h2 className="text-xl font-bold text-gray-800 mb-4">Available Clothes</h2>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-3 gap-4">
             {clothingItems.slice(0, 12).map((item) => (
               <img key={item.id} src={item.image} alt="Clothing"
                 className="w-32 h-28 cursor-pointer shadow-md rounded-md border hover:scale-105 transition-transform"
