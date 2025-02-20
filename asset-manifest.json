@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chicora/static/css/main.8fa919d2.css",
-    "main.js": "/chicora/static/js/main.82c1927c.js",
+    "main.js": "/chicora/static/js/main.ce06c77b.js",
     "static/media/c24.jpg": "/chicora/static/media/c24.40f096a77992e1305bc5.jpg",
     "static/media/top3.png": "/chicora/static/media/top3.d2f9024d489948238cca.png",
     "static/media/hoodie1.png": "/chicora/static/media/hoodie1.7ba611dc9c25fbacf303.png",
@@ -53,10 +53,10 @@
     "static/media/slick.woff": "/chicora/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/chicora/index.html",
     "main.8fa919d2.css.map": "/chicora/static/css/main.8fa919d2.css.map",
-    "main.82c1927c.js.map": "/chicora/static/js/main.82c1927c.js.map"
+    "main.ce06c77b.js.map": "/chicora/static/js/main.ce06c77b.js.map"
   },
   "entrypoints": [
     "static/css/main.8fa919d2.css",
-    "static/js/main.82c1927c.js"
+    "static/js/main.ce06c77b.js"
   ]
 }
